@@ -52,7 +52,7 @@ Pre-requirements:
 
 ```
 $ cd $GOPATH/src/github.com/decred
-$ git clone https://github.com/decred/atomicswap && cd atomicswap
+$ git clone https://github.com/luoshang722/atomicswap && cd atomicswap
 $ dep ensure
 $ go install ./cmd/...
 ```
