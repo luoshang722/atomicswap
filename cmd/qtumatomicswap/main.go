@@ -377,9 +377,9 @@ func normalizeAddress(addr string, defaultPort string) (hostport string, err err
 func walletPort(params *chaincfg.Params) string {
 	switch params {
 	case &chaincfg.MainNetParams:
-		return "9332"
+		return "3889"
 	case &chaincfg.TestNet4Params:
-		return "19332"
+		return "13889"
 	default:
 		return ""
 	}
